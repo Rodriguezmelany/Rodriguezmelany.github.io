@@ -1,0 +1,37 @@
+body {
+    font-family:'Source Code Pro', monospace;
+    background-color: #d7d8cc; }
+h1 {
+    color: #29433d;
+    background-color: #f4f6eb;
+    padding: 1.3rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+}
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h2 {color: #29433d;
+    background-color: #f4f6eb;
+    padding: 20px; }
+p {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    line-height: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+a:link {
+    color: #f365b3;
+    text-decoration: none;
+}
+a:visited {
+    color: #8443a8;
+}
+a:hover {
+    color: #f74c04;
+    text-decoration: underline;
+}
+a:active {
+    color: #279fbe
+}

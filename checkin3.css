@@ -1,0 +1,113 @@
+.wrapper {
+    border: 3px solid black; 
+    display: grid;
+    grid-template-rows: 1fr 4fr 4fr;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    min-height: 100vh;
+}
+
+header{
+    background-color: rgb(209, 229, 215);
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    text-align: center; 
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 2rem;
+
+    font-family: 'Kalam', cursive;
+    font-size: 2rem;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+}
+
+.topleft{
+    background-color: rgb(245, 249, 229);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    font-family: 'Caveat', cursive;
+    font-size: medium;
+    text-align: center; 
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.topright{
+    background-color: plum;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.bottomleft{
+    background-color: rgb(209, 229, 215);
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    font-family: 'Caveat', cursive;
+    font-size: medium;
+    text-align: center;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.bottommid{
+    background-color: white;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.bottomright{
+    background-color: rgb(209, 229, 215);
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+   /* text-align: center; */
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 2rem;
+    font-family: 'Caveat', cursive;
+    font-size: large;
+}
+
+address{
+    font-style: normal;
+}
+
+.rightimage{
+    float: right;
+    padding: 0 0 10px 10px;
+}
+
+.fitimage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,49 @@
+h2 {
+    text-align: center;
+    padding: 12px;
+    margin: 0px;
+}
+
+@keyframes color{ 
+    0% { background: #e8d4cc; }
+  20%  { background: #f6cff090; }
+  40%  { background: #aa4ece6c; }
+  60%  { background: #df6aa8; }
+  80%  { background: #eec8e8; }
+  100% { background: #e8d4cc; }
+}
+
+body {
+    background: #f3d3ed;
+    animation: color 10s infinite;
+
+}
+nav li {
+    list-style-type: none;
+    background-color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightgray;
+    padding: 25px;
+}
+
+nav a:hover {
+    color: palegoldenrod;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 25px;
+    margin: 0;
+}
+
+h1 {
+    color: gray;
+    font-family: 'Merriweather', serif;
+    font-size: x-large;
+}
