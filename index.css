@@ -1,0 +1,187 @@
+* {
+    background-color: rgb(167, 165, 149);
+}
+/*Nav bar*/
+nav li {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 16pt;
+    font-size: large;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin: 0;
+}
+/*Css for headings and paragraphs in home, portfolio, and resume*/
+h1 {
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 34pt;
+    text-align: center;
+    margin: 0px;
+    padding: 25px 12px 12px 12px;
+}
+
+header{
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    border: 2px solid white;
+    border-radius: 0;
+}
+
+h2{
+    font-size: 18pt;
+    text-align: left;
+    color: rgb(254, 249, 241);
+}
+
+p{
+    font-size: 14pt;
+    font-family: 'DM Serif Display', serif;
+    font-weight: lighter;
+    color: rgb(254, 249, 241);
+    line-height: 30px;
+}
+/*Home page*/
+.wrapper {
+    float:left;
+    padding: 25px;  
+}
+
+.wraptext {
+    color: rgb(252, 249, 245);
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.wraprow{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+img{
+    max-width: 100%;
+    max-height:100%;
+}
+
+/*Resume*/
+.p2{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.fontwrapper{
+    font-size: 14pt;
+    font-family: 'DM Serif Display', serif;
+    color: rgb(254, 249, 241);
+}
+/*Portfolio Dropdown container*/
+.dropdown{
+    float: left;
+    overflow:hidden;
+}
+/*Portfolio Dropdown button*/
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    font-size: large;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.dropdown:hover .dropbtn{
+    color:black;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(230, 227, 204);
+    min-width: 160px;
+    box-shadow:0px 8px 16px 0px rgba(196, 182, 182, 0.2);
+    z-index: 1;
+}
+/*link inside dropdown*/
+.dropdown-content a{
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color:  rgb(206, 203, 178);
+}
+
+/*background color for dropdown linked*/
+.dropdown-content a:hover{
+    background-color: rgb(187, 184, 161);
+}
+
+/*show dropdown menu on hover*/
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/*Portofolio writing samples*/
+
+body{
+    font-family: 'Julius Sans One', sans-serif;
+    color: white; 
+}
+
+a {
+    text-decoration: none;
+    color: rgb(54, 68, 66);
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+a:hover {
+    color: rgb(254, 249, 241);
+}
+
+a.button:link {
+    color: rgb(54, 68, 66);
+    text-decoration:none;
+}
+a.button:visited {
+    color: rgb(54, 68, 66);
+}
+a.button:hover {
+    color: rgb(254, 249, 241);
+}
+
+a.button:active {
+    color: black;
+}
+
+/* contact logo*/
+
+.contacticon{
+    width: 200px ;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2rem;
+}
+
+.contactheader{
+    text-align: center;
+    font-size: 30pt;
+}
+
+
